@@ -92,7 +92,16 @@ function checkKeyPressed(evt) {
     if (evt.keyCode == "32") {
         adventure();
     }
+	if (evt.keyCode == "82") {
+        $.jStorage.deleteKey("dC");
+		window.location.reload();
+    }
+	if (evt.keyCode == "65") {
+        var amt = prompt();
+		addCoin(amt);
+    }
 }
+
 function generateHeroicQuests() {
 	heroicQuests = new Array();
 	if (hasBuff("Book of Aresius")) {

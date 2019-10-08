@@ -35,7 +35,6 @@ function initOptionsPanel() {
 		window.location.reload();
 	});
 }
-
 function updateOptions() {
 	if (dC["options"]["RotateAdventureLight"] == true) {
 		$("#light").addClass("rotate");

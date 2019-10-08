@@ -1,7 +1,7 @@
 dCi["artifacts"] = new Object();
 dCi["artifacts"]["Horseshoe"] = {text:"When you go on an adventure you earn 1 extra coin.", quote:"This item is yet to be identified.", price:"100"};
 dCi["artifacts"]["Rabbit's Foot"] = {text:"When you go on an adventure you earn 1 extra coin.", quote:"This item is yet to be identified.", price:"200"};
-dCi["artifacts"]["Nazar"] = {text:"When you go on an adventure you earn 1 extra coin.", quote:"This item is yet to be identified.", price:"300"};
+dCi["artifacts"]["Bloodwolf Fang"] = {text:"When you go on an adventure you earn 1 extra coin.", quote:"This items origins are unknown.", price:"300"};
 dCi["artifacts"]["Lucky Hand"] = {text:"When you go on an adventure you earn 1 extra coin.", quote:"This item is yet to be identified.", price:"400"};
 dCi["artifacts"]["Coin Charm"] = {text:"When you go on an adventure you earn 1 extra coin.", quote:"This item is yet to be identified.", price:"500"};
 dCi["artifacts"]["Golden Rose Clover"] = {text:"When you go on an adventure you earn 5 extra coin.", quote:"This golden five-leaf clover trinket is said to bring luck and prosperity to its owner.", price:"1000"};
@@ -42,19 +42,15 @@ dCi["artifacts"]["Tooth of the Manticore"] = {text:"Increases your income by 8%"
 dCi["artifacts"]["Heart of the Kraken"] = {text:"Increases your income by 9%", quote:"This item is yet to be identified.", price:"1000000000000"};
 dCi["artifacts"]["Left Tusk of the Tarrasque"] = {text:"Increases your income by 10%", quote:"This item is yet to be identified.", price:"10000000000000"};
 dCi["artifacts"]["Right Tusk of the Tarrasque"] = {text:"Increases your income by 10%", quote:"This item is yet to be identified.", price:"10000000000000"};
-
 dCi["artifacts"]["Ring of Luck"] = {text:"Doubles your income.", quote:"This ancient golden ring found its way to the finger of many a successful adventurer.", price:"7777777"};
-
-/*
-dCi["artifacts"]["Bracers of Lightning Slashes"] = {text:"When you hit a monster you have a 10% chance of inflicting a critical hit, dealing double damage.", quote:"Weapons feel almost weightless while wearing this pair of steel bracers.", price:"100000"};
-dCi["artifacts"]["Ruby of Wicked Wounds"] = {text:"When you leave a dungeon, your foes don't recover HP.", quote:"When inserted in the hilt of a weapon, this glowing gem turns warm to touch. Wounds made with such a weapon can't be healed by nonmagical means.", price:"1000000"};
-dCi["artifacts"]["Pendants of Dicernment"] = {text:"You earn double experience.", quote:"Unavailable", price:"999999999999999"};
-dCi["artifacts"]["Tome of Practical Wisdom"] = {text:"You earn more experience for each achievement you unlock.", quote:"Unavailable", price:"999999999999999"};
-dCi["artifacts"]["Crown of the Dwarven King"] = {text:"You earn double coin.", quote:"Unavailable", price:"999999999999999"};
-dCi["artifacts"]["Tome of Provident Planification"] = {text:"You earn more coin for each achievement you unlock.", quote:"Unavailable", price:"999999999999999"};
-dCi["artifacts"]["Gauntlets of Titan Strength"] = {text:"You deal double damage.", quote:"Unavailable", price:"999999999999999"};
-dCi["artifacts"]["Tome of True Strikes"] = {text:"You deal more damage for each achievement you unlock.", quote:"Unavailable", price:"999999999999999"};
-*/
+//dCi["artifacts"]["Bracers of Lightning Slashes"] = {text:"When you hit a monster you have a 10% chance of inflicting a critical hit, dealing double damage.", quote:"Weapons feel almost weightless while wearing this pair of steel bracers.", price:"100000"};
+//dCi["artifacts"]["Ruby of Wicked Wounds"] = {text:"When you leave a dungeon, your foes don't recover HP.", quote:"When inserted in the hilt of a weapon, this glowing gem turns warm to touch. Wounds made with such a weapon can't be healed by nonmagical means.", price:"1000000"};
+//dCi["artifacts"]["Pendants of Dicernment"] = {text:"You earn double experience.", quote:"Unavailable", price:"999999999999999"};
+//dCi["artifacts"]["Tome of Practical Wisdom"] = {text:"You earn more experience for each achievement you unlock.", quote:"Unavailable", price:"999999999999999"};
+//dCi["artifacts"]["Crown of the Dwarven King"] = {text:"You earn double coin.", quote:"Unavailable", price:"999999999999999"};
+//dCi["artifacts"]["Tome of Provident Planification"] = {text:"You earn more coin for each achievement you unlock.", quote:"Unavailable", price:"999999999999999"};
+//dCi["artifacts"]["Gauntlets of Titan Strength"] = {text:"You deal double damage.", quote:"Unavailable", price:"999999999999999"};
+//dCi["artifacts"]["Tome of True Strikes"] = {text:"You deal more damage for each achievement you unlock.", quote:"Unavailable", price:"999999999999999"};
 
 dC["artifacts"] = new Object();
 for (var key in dCi["artifacts"]) {
