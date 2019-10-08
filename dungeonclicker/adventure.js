@@ -86,13 +86,13 @@ function adventure() {
 	
 	spawnParticles("coin", p);
 }
-function keyListener(event){ 
-    event = event || window.event; //capture the event, and ensure we have an event
-    var key = event.key || event.which || event.keyCode; //find the key that was pressed
-    if(key===32){ //if 'Space' is clicked then adventure
+window.addEventListener("keydown", checkKeyPressed, false);
+
+function checkKeyPressed(evt) {
+    if (evt.keyCode == "32") {
         adventure();
     }
-  }
+}
 function generateHeroicQuests() {
 	heroicQuests = new Array();
 	if (hasBuff("Book of Aresius")) {
