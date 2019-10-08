@@ -39,16 +39,6 @@
 			ga('create', 'UA-46236226-8', 'auto');
 			ga('send', 'pageview');
 		</script>
-		<script>
-			function keyListener(event){ 
-    //whatever we want to do goes in this block
-    event = event || window.event; //capture the event, and ensure we have an event
-    var key = event.key || event.which || event.keyCode; //find the key that was pressed
-    if(key===32 || key===13){ //if 'Space' or 'Enter' is clicked then adventure
-        adventure();
-    }
-  }
-		</script>
 	</head>
 	<body>
 		<div id="loading"></div>
